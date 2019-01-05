@@ -1,0 +1,24 @@
+{
+  "name": "time-signal",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mon2929/time-signal.git"
+  },
+  "author": "monsar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mon2929/time-signal/issues"
+  },
+  "homepage": "https://github.com/mon2929/time-signal#readme",
+  "dependencies": {
+    "electron": "^4.0.0",
+    "tone": "^0.12.80"
+  }
+}

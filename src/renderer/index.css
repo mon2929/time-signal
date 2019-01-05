@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'NotoSansCJKjp';
+	src: url('asset/NotoSansCJKjp-Black.otf');
+}
+
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+
+	background-color: #00000000;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+#canvas {
+	transform-origin: left top;
+
+	font-feature-settings: 'palt' on;
+	letter-spacing: -0.4em;
+}
