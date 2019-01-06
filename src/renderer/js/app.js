@@ -52,7 +52,7 @@ class App {
 				this.canCountdown = false;
 				setTimeout(() => {
 					ipcRenderer.send('asynchronous-message', 'exit');
-				}, 2000);
+				}, 2500);
 			}
 		}
 

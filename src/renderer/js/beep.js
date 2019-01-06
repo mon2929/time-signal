@@ -9,13 +9,13 @@ class Beep {
 	}
 
 	playStart() {
-		this.osc.frequency.value = 500;
+		this.osc.frequency.value = 495;
 		this.osc.start();
 		this.osc.stop('+1.2');
 	}
 
 	playCountdown() {
-		this.osc.frequency.value = 500;
+		this.osc.frequency.value = 495;
 		this.osc.start();
 		this.osc.stop('+0.15');
 	}
