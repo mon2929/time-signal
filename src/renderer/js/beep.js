@@ -4,7 +4,6 @@ class Beep {
 		this.ctx = this.parent.ctx;
 
 		this.osc = new Tone.Oscillator(500, 'sine');
-		this.osc.volume.value = -10;
 		this.osc.toMaster();
 	}
 
